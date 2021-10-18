@@ -6,7 +6,11 @@
             "email": "angga@sard.maxindo.net.id"
         }
     ],
-    "require": {},
+    "require": {
+        "twig/twig": "^3.0",
+        "vlucas/phpdotenv": "^5.3",
+        "doctrine/dbal": "^3.1"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "app/"

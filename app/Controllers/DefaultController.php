@@ -4,9 +4,9 @@ namespace App\Controllers;
 
 class DefaultController {
 
-   public function index()
+   public function index($request)
    {
-      echo "Home";
+      return view("home");
    }
 
 }
